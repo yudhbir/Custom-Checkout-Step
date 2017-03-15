@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>YRS_CheckoutStep</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license>Open Software License</license>
+    <channel>local</channel>
+    <extends/>
+    <summary>Adding new Checkout Step in onepage </summary>
+    <description>Adding new Checkout Step in onepage </description>
+    <notes>YRS_CheckoutStep 0.0.1 version</notes>
+    <authors><author><name>Yudhbir Singh</name><user>Yudhbir</user><email>sachinsingh3066@gmail.com</email></author></authors>
+    <date>2017-03-09</date>
+    <time>04:25:36</time>
+    <contents><target name="magelocal"><dir name="YRS"><dir name="CheckoutStep"><dir name="Block"><dir name="Onepage"><file name="Instructional.php" hash="9db649bcfbf20fe7f74617c57a60f121"/></dir><file name="Onepage.php" hash="26cc9dc63dcb328ffe9784d2730ba697"/></dir><dir name="Helper"><file name="Data.php" hash="2f55805675af9238f27a259ef682f499"/></dir><dir name="Model"><dir name="Type"><file name="Onepage.php" hash="1f0b2fe4bcaacd25397640a32ec5735b"/></dir></dir><dir name="controllers"><file name="OnepageController.php" hash="4af252687be1f014f2701e8276b95287"/></dir><dir name="etc"><file name="config.xml" hash="1233b2cccf36866697a87f4a9a2841c7"/><file name="system1.xml" hash="2436e296a695d9bf7db015f5f461486b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="YRS_CheckoutStep.xml" hash="affe98aac9a6c81a2a701418efdc15b7"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="checkoutstep.xml" hash="e04183692dcc0e41c343e4db7ac3589a"/></dir><dir name="template"><dir name="checkoutstep"><dir name="onepage"><file name="Instructional.phtml" hash="de6afbb917597ae8cec59979d48755a1"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>YRS_CheckoutStep</name><channel>local</channel><min>1.8</min><max>1.9</max></package></required></dependencies>
+</package>
